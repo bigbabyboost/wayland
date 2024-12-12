@@ -4,6 +4,7 @@ modules:
       # notifications
         - dunst
         - sddm
+        - sddm-wayland
         - libva-intel-media-driver
       install:
         - wl-clipboard
