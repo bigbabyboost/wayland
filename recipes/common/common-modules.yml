@@ -2,6 +2,12 @@ modules:
     - type: rpm-ostree
       remove:
       # notifications
+        - xarchiver
+        - gnome-weather
+        - baobap
+        - pavucontrol
+        - gnome-calculator
+        - nwg-panel
         - dunst
         - sddm-themes
         - sddm-wayland-generic
