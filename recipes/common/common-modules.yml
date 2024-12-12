@@ -18,13 +18,14 @@ modules:
         - file-roller
         
     - type:default-flatpaks
-      remove:
-        - org.gnome.Connections
-        - org.gnome.Maps
-        - org.gnome.Weather
-        - org.gnome.Weather
-        - org.gnome.clocks
-
+      notify: true
+      system:
+        remove:
+          - org.gnome.Connections
+          - org.gnome.Maps
+          - org.gnome.Weather
+          - org.gnome.Weather
+          - org.gnome.clocks
         
     - type: script
       scripts:
