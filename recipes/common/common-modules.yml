@@ -3,9 +3,9 @@ modules:
       remove:
       # notifications
         - dunst
-        - sddm
         - sddm-themes
         - sddm-wayland-generic
+        -sddm
         - libva-intel-media-driver
       install:
         - wl-clipboard
