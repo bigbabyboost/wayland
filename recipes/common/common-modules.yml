@@ -9,6 +9,7 @@ modules:
       # notifications
         - dunst
         - sddm
+        - libva-intel-driver
         
     - type: script
       scripts:
