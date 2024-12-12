@@ -4,7 +4,7 @@ modules:
       # notifications
         - dunst
         - sddm
-        - libva-intel-driver
+        - libva-intel-media-driver
       install:
         - wl-clipboard
         - nodejs
