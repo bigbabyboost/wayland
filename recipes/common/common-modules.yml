@@ -5,7 +5,7 @@ modules:
         - dunst
         - sddm-themes
         - sddm-wayland-generic
-        -sddm
+        - sddm
         - libva-intel-media-driver
       install:
         - wl-clipboard
