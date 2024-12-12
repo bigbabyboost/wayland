@@ -4,7 +4,8 @@ modules:
       # notifications
         - xarchiver
         - gnome-weather
-        - baobap
+        - gnome-maps
+        - baobab
         - pavucontrol
         - gnome-calculator
         - nwg-panel
