@@ -4,16 +4,11 @@ modules:
         - wl-clipboard
         - nodejs
         - nodejs-npm
+        - intel-media-driver
       remove:
-      # launcher
-        - rofi-wayland
-      # file manager
-      #  - thunar
-      #  - thunar-archive-plugin 
-      #  - thunar-volman
-
       # notifications
-      #  - dunst
+        - dunst
+        - sddm
         
     - type: script
       scripts:

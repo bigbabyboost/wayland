@@ -1,3 +1,3 @@
 set -oue pipefail
 
-npm install -g sass
+npm install -i sass
