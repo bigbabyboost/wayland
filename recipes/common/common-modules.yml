@@ -4,6 +4,7 @@ modules:
       # notifications
         - dunst
         - sddm
+        - sddm-themes
         - sddm-wayland-generic
         - libva-intel-media-driver
       install:
