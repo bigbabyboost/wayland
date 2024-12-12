@@ -10,7 +10,7 @@ modules:
 
     - type: script
       scripts:
-        - removeunprofessionalwallpapers.sh
+       # - removeunprofessionalwallpapers.sh
 
     - type: rpm-ostree
       repos:
