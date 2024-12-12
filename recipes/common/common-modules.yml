@@ -13,7 +13,7 @@ modules:
       #  - thunar-volman
 
       # notifications
-        - dunst
+      #  - dunst
         
     - type: script
       scripts:
