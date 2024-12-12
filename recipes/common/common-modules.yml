@@ -30,4 +30,3 @@ modules:
     - type: script
       scripts:
         - installsass.sh
-        - installkernelcachyos.sh
