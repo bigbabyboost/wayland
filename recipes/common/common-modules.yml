@@ -1,15 +1,16 @@
 modules:
     - type: rpm-ostree
-      install:
-        - wl-clipboard
-        - nodejs
-        - nodejs-npm
-        - intel-media-driver
       remove:
       # notifications
         - dunst
         - sddm
         - libva-intel-driver
+      install:
+        - wl-clipboard
+        - nodejs
+        - nodejs-npm
+        - intel-media-driver
+
         
     - type: script
       scripts:
