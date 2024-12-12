@@ -3,13 +3,14 @@ modules:
       install:
         - wl-clipboard
         - nodejs
+        - nodejs-npm
       remove:
       # launcher
-        - rofi-wayland
+      #  - rofi-wayland
       # file manager
-        - thunar
-        - thunar-archive-plugin 
-        - thunar-volman
+      #  - thunar
+      #  - thunar-archive-plugin 
+      #  - thunar-volman
 
       # notifications
         - dunst
