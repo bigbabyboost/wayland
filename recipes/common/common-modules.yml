@@ -17,7 +17,7 @@ modules:
         - intel-media-driver
         - file-roller
         
-    - type:default-flatpaks
+    - type: default-flatpaks
       notify: true
       system:
         remove:
