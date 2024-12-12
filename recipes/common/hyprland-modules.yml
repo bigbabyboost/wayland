@@ -8,8 +8,8 @@ modules:
         - source: system/hyprland
           destination: /
 
-    - type: script
-      scripts:
+    #- type: script
+      #scripts:
        # - removeunprofessionalwallpapers.sh
 
     - type: rpm-ostree
