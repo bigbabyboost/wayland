@@ -1,0 +1,28 @@
+modules:
+    - type: rpm-ostree
+      install:
+        - wl-clipboard
+        - nodejs
+      remove:
+      # launcher
+        - rofi-wayland
+      # file manager
+        - thunar
+        - thunar-archive-plugin 
+        - thunar-volman
+      # display
+        - wlr-randr
+        - wlsunset
+        - brightnessctl
+        - kanshi
+
+      # notifications
+        - dunst
+
+      # theme and GUI
+        - paper-icon-theme
+        - breeze-icon-theme
+        
+    - type: script
+      scripts:
+        - installsass.sh
