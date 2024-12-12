@@ -3,11 +3,7 @@ modules:
       remove:
       # notifications
         - xarchiver
-        - gnome-weather
-        - gnome-maps
-        - baobab
         - pavucontrol
-        - gnome-calculator
         - nwg-panel
         - dunst
         - sddm-themes
@@ -19,6 +15,15 @@ modules:
         - nodejs
         - nodejs-npm
         - intel-media-driver
+        - file-roller
+        
+    - type:default-flatpaks
+      remove:
+        - org.gnome.Connections
+        - org.gnome.Maps
+        - org.gnome.Weather
+        - org.gnome.Weather
+        - org.gnome.clocks
 
         
     - type: script
