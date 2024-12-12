@@ -16,6 +16,7 @@ modules:
         - nodejs-npm
         - intel-media-driver
         - file-roller
+        - mpv
         
     - type: default-flatpaks
       notify: true
